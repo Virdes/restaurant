@@ -11,16 +11,16 @@ https://user-images.githubusercontent.com/49965191/175379524-183d12e6-09bf-4601-
 
 ## 💻 Rodando o projeto
 
-# Clone este repositório
+$ Clone este repositório
 $ git clone https://github.com/virdes/restaurant
 
-# Vá até o diretório do projeto
+$ Vá até o diretório do projeto
 $ cd restaurant
 
-# Instale as dependências
+$ Instale as dependências
 $ yarn install
 
-# Run Web Server
+$ Run Web Server
 $ yarn dev
 
 https://user-images.githubusercontent.com/49965191/175380624-35097746-5f68-47b0-8413-fe60d7ec1a89.mp4
