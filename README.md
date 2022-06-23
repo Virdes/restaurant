@@ -15,13 +15,13 @@ $ Clone este repositório
 $ git clone https://github.com/virdes/restaurant
 
 $ Vá até o diretório do projeto
-$ cd restaurant
+# cd restaurant #
 
 $ Instale as dependências
-$ yarn install
+# yarn install #
 
 $ Rode o projeto com
-$ yarn dev
+# yarn dev #
 
 $ Abra o navegador e digite http://localhost:3000/
 
