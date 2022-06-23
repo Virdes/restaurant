@@ -31,5 +31,7 @@ https://user-images.githubusercontent.com/49965191/175380706-46de475a-4224-4ca6-
 
 ## Technologies:
 🚀 ReactJS
+
 🚀 Next.js
+
 🚀 JavaScript
