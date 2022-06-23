@@ -20,8 +20,11 @@ $ cd restaurant
 $ Instale as dependências
 $ yarn install
 
-$ Run Web Server
+$ Rode o projeto com
 $ yarn dev
+
+$ yarn dev
+$ Abra o navegador e digite http://localhost:3000/
 
 https://user-images.githubusercontent.com/49965191/175380624-35097746-5f68-47b0-8413-fe60d7ec1a89.mp4
 
