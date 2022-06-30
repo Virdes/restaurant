@@ -10,18 +10,18 @@ const Navbar = () => {
                 </div>
                 <div className={styles.texts}>
                     <div className={styles.text}>CONTATO</div>
-                    <div className={styles.text}>012 345 678</div>
+                    <div className={styles.text}>(11) 3805-1000 </div>
                 </div>
             </div>
             <div className={styles.item}>
                 <ul className={styles.list}>
-                    <li className={styles.listItem}>Homepage</li>
-                    <li className={styles.listItem}>Products</li>
-                    <li className={styles.listItem}>Menu</li>
-                    <Image src="/img/logo.png" alt="" width="160px" height="69px" />
-                    <li className={styles.listItem}>Events</li>
-                    <li className={styles.listItem}>Blog</li>
-                    <li className={styles.listItem}>Contact</li>
+                    <li className={styles.listItem}>Cardápio</li>
+                    <li className={styles.listItem}>Produtos</li>
+                    <li className={styles.listItem}>Delivery</li>
+                    <Image src="/img/logo.png" alt="" width="140px" height="59px" />
+                    <li className={styles.listItem}>Lançamentos</li>
+                    <li className={styles.listItem}>Promoções</li>
+                    <li className={styles.listItem}>Fale Conosco</li>
                 </ul>
             </div>
             <div className={styles.item}>
