@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# restaurant.japan
 
-## Getting Started
+unijapan é um restaurante de de comidas típicas japonesas desenvolvido com ReactJS e Next.Js.
 
-First, run the development server:
+![image](https://user-images.githubusercontent.com/49965191/175379366-0218c916-3c93-4907-a1b1-d585146437e4.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![image](https://user-images.githubusercontent.com/49965191/175379398-e0bf1279-992f-476f-879f-3039dbd1e4b1.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://user-images.githubusercontent.com/49965191/175379524-183d12e6-09bf-4601-beb0-39cfa9134375.mp4
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 💻 Rodando o projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+$ Clone este repositório
+$ git clone https://github.com/virdes/restaurant
 
-## Learn More
+$ Vá até o diretório do projeto
+**cd restaurant**
 
-To learn more about Next.js, take a look at the following resources:
+$ Instale as dependências
+**yarn install**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+$ Rode o projeto com
+**yarn dev**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+$ Abra o navegador e digite http://localhost:3000/
 
-## Deploy on Vercel
+https://user-images.githubusercontent.com/49965191/175380624-35097746-5f68-47b0-8413-fe60d7ec1a89.mp4
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://user-images.githubusercontent.com/49965191/175380706-46de475a-4224-4ca6-a9df-c67f13d2de06.mp4
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies:
+🚀 ReactJS
+
+🚀 Next.js
+
+🚀 JavaScript
