@@ -15,10 +15,10 @@ const Navbar = () => {
             </div>
             <div className={styles.item}>
                 <ul className={styles.list}>
-                    <li className={styles.listItem}>Cardápio</li>
+                    <li className={styles.listItem}><a href="/delivery">Cardápio</a></li>
                     <li className={styles.listItem}>Produtos</li>
                     <li className={styles.listItem}>Delivery</li>
-                    <Image src="/img/logo.png" alt="" width="140px" height="59px" />
+                    <a href="/"><Image src="/img/logo.png" alt="" width="140px" height="59px" /></a>
                     <li className={styles.listItem}>Lançamentos</li>
                     <li className={styles.listItem}>Promoções</li>
                     <li className={styles.listItem}>Fale Conosco</li>
