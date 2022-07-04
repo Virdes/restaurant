@@ -1,9 +1,10 @@
 import styles from "../../styles/Delivery.module.css";
+import Image from "next/image";
 
 const Delivery = () => {
     return (
         <div className={styles.container}>
-                    <img className={styles.ImagemFundo} src="/img/delivery.png" alt="Fundo" />
+                    <img className={styles.ImagemFundo} src="/img/delivery.png" alt="Fundo" layout="fill" />
 
                     <h1 className={styles.title}>PEÇA PELO DELIVERY!</h1>
                     <p className={styles.desc}>

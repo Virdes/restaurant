@@ -7,8 +7,9 @@
 }
 
 .ImagemFundo{
-    width: 100vw;
+    max-width: 100%;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .desc{
