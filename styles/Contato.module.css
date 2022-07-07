@@ -180,7 +180,7 @@
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px), screen and (max-height: 700px){
     .containermenor{
         width: 90%;
         height: auto;
