@@ -166,7 +166,7 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1330px), screen and (max-height: 650px) {
     .imagemform{
         display: none;
     }
@@ -180,11 +180,12 @@
     }
 }
 
-@media screen and (max-width: 1000px), screen and (max-height: 700px){
+@media screen and (max-width: 750px){
     .containermenor{
         width: 90%;
         height: auto;
     }
+    
     .inputgroup{
         flex-direction: column;
         overflow: scroll;
