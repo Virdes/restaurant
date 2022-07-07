@@ -1,7 +1,10 @@
 import styles from "../styles/Navbar.module.css"
 import Image from "next/image";
+import React from 'react';
+import { useState } from "react";
 
 const Navbar = () => {
+    const [open, setOpen] = useState(false)
     return (
         <div className={styles.container}>
             <div className={styles.item}>
@@ -24,12 +27,20 @@ const Navbar = () => {
                     <li className={styles.listItem}><a href="/contato">Fale conosco</a></li>
                 </ul>
             </div>
-            <div className={styles.item}>
-                <div className={styles.cart}>
-                    <Image src="/img/cart.png" alt="" width="30px" height="30px" />
-                    <div className={styles.counter}>2</div>
-                </div>
+            <div className={styles.hamburguer} onClick={() => setOpen(!open)}>
+                <div className={styles.line}></div>
+                <div className={styles.line}></div>
+                <div className={styles.line}></div>
             </div>
+            <ul onClick={()=>setOpen(false)} className={styles.menu} style={{right: open ? "0px" : "-50vw"}}>
+            <li className={styles.listItem}><a href="/cardapio">Cardápio</a></li>
+                    <li className={styles.menuItem}><a href="/restaurantes">Restaurantes</a></li>
+                    <li className={styles.menuItem}><a href="/delivery">Delivery</a></li>
+                    <li className={styles.menuItem}><a href="/lancamentos">Lançamentos</a></li>
+                    <li className={styles.menuItem}><a href="/promocoes">Promoções</a></li>
+                    <li className={styles.menuItem}><a href="/contato">Fale conosco</a></li>
+                    <li className={styles.menuItem}><a href="/">Início</a></li>
+            </ul>
         </div>
     );
 };

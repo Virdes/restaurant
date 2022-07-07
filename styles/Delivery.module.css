@@ -23,7 +23,7 @@
 }
 
 .buttonDelivery{
-    background-color: #d1411e;
+    background-color: #be0e1a;
     width: 450px;
     height: 45px;
     color: white;
@@ -32,6 +32,10 @@
     cursor: pointer;
     border-radius: 10px;
     border: none;
+}
+
+.buttonDelivery button:hover{
+    background-color: #cf121e;
 }
 
 .imagemDelivery{
