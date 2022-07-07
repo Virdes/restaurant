@@ -1,5 +1,4 @@
 import styles from "../../styles/Delivery.module.css";
-import Image from "next/image";
 
 const Delivery = () => {
     return (

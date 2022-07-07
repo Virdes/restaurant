@@ -19,9 +19,9 @@ const Navbar = () => {
                     <li className={styles.listItem}><a href="/restaurantes">Restaurantes</a></li>
                     <li className={styles.listItem}><a href="/delivery">Delivery</a></li>
                     <a href="/"><Image src="/img/logo.png" alt="" width="140px" height="59px" /></a>
-                    <li className={styles.listItem}>Lançamentos</li>
-                    <li className={styles.listItem}>Promoções</li>
-                    <li className={styles.listItem}>Fale Conosco</li>
+                    <li className={styles.listItem}><a href="/lancamentos">Lançamentos</a></li>
+                    <li className={styles.listItem}><a href="/promocoes">Promoções</a></li>
+                    <li className={styles.listItem}><a href="/contato">Fale conosco</a></li>
                 </ul>
             </div>
             <div className={styles.item}>
