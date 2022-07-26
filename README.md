@@ -20,6 +20,8 @@ $ Rode o projeto com
 
 $ Abra o navegador e digite http://localhost:3000/
 
+$ Para interagir melhor, clique no link que estão nos detalhes do repositório.
+
 ## Technologies:
 🚀 ReactJS
 
